@@ -70,13 +70,38 @@ tol2 = 0.5 ## Tolerance parameter defined in the algorithm
 # data, label = skd.make_blobs(n_samples = 500, random_state = 100) # tol1 = 0.01
 data, label = skd.make_circles(n_samples = 250, factor = 0.25, noise = 0.05, random_state = 0) 
 ```
-```python
-for h in range(1): ## change this range to your desired range to get better approximations of the performance measures.
+The output looks like this:
+```
+oise : 0.0
+Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Number of clusters : 2.0 +/- 0.0
+ARI : 1.0 +/- 0.0
+NNMI : 1.0 +/- 0.0
 
-        ## Uncomment the desired line to choose the type of error you want to introduce
-        #X, label_1 = add_noise(data, label_0, 0.05*m)
-        X, label = add_noise_annulus(data, label_0 ,0.05, 0.35, 0.6)
-        # X, label_1 = add_normal_noise(data, label_0, 0.3)
-        #X, label = add_outlier(X, label_1, 0.1)
+Noise : 0.05
+Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Number of clusters : 2.0 +/- 0.0
+ARI : 1.0 +/- 0.0
+NNMI : 1.0 +/- 0.0
+
+Noise : 0.1
+Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Number of clusters : 2.1333333333333333 +/- 0.33993463423951903
+ARI : 0.9932291223698614 +/- 0.02328923700992348
+NNMI : 0.991689170957223 +/- 0.02696855321910278
+
+Noise : 0.15000000000000002
+Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Number of clusters : 1.8 +/- 0.5416025603090641
+ARI : 0.7260269891064441 +/- 0.4384136444601985
+NNMI : 0.7238830535931603 +/- 0.43735554102152124
+
+Noise : 0.2
+Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+Number of clusters : 1.9333333333333333 +/- 0.8537498983243799
+ARI : 0.6192049595333597 +/- 0.44749199523473543
+NNMI : 0.6251327343476533 +/- 0.4493159700250917
+![1](https://github.com/user-attachments/assets/bf6196e1-e15c-493b-8ba1-ea22522e8284)
+![download](https://github.com/user-attachments/assets/8dedc1ab-0026-448a-badc-94dc914b56f7)
 ```
 
