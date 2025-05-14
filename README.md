@@ -1,2 +1,4 @@
 # Robust_Convex_Clustering_with_Median_of_Means
-Code and Dataset dump for the project on a fast robust convex clustering with Median of Means
+Codes for the paper "Convex Clustering Redefined: Robust Learning with the Median of Means Estimator".
+
+Instructions : 
