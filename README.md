@@ -70,7 +70,7 @@ tol2 = 0.5 ## Tolerance parameter defined in the algorithm
 # data, label = skd.make_blobs(n_samples = 500, random_state = 100) # tol1 = 0.01
 data, label = skd.make_circles(n_samples = 250, factor = 0.25, noise = 0.05, random_state = 0) 
 ```
-The output looks like this:
+This is how the output looks like:
 ```
 oise : 0.0
 Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
