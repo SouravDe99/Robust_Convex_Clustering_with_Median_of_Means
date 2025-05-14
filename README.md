@@ -33,8 +33,8 @@ for m in range(m):
     csvwriter.writerow([k_star[m], ari[m], nnmi[m]])
 file.close()
 ```
-```
 This is how the output looks like:
+```
 k*,ari,nnmi
 4,0.979428490191042,0.9204397662192251
 4,0.9761196880837723,0.9118458794392409
