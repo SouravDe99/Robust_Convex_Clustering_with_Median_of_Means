@@ -72,7 +72,7 @@ data, label = skd.make_circles(n_samples = 250, factor = 0.25, noise = 0.05, ran
 ```
 This is how the output looks like:
 ```
-oise : 0.0
+Noise : 0.0
 Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
 Number of clusters : 2.0 +/- 0.0
 ARI : 1.0 +/- 0.0
