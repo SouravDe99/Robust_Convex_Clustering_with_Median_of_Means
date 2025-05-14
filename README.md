@@ -101,7 +101,7 @@ Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 Number of clusters : 1.9333333333333333 +/- 0.8537498983243799
 ARI : 0.6192049595333597 +/- 0.44749199523473543
 NNMI : 0.6251327343476533 +/- 0.4493159700250917
-![1](https://github.com/user-attachments/assets/bf6196e1-e15c-493b-8ba1-ea22522e8284)
-![download](https://github.com/user-attachments/assets/8dedc1ab-0026-448a-badc-94dc914b56f7)
+![Image 1](./images/1.png)
+![Image 2](./images/download.png)
 ```
 
