@@ -1,7 +1,7 @@
 # Convex Clustering Redefined: Robust Learning with the Median of Means Estimator
 Codes for the paper "Convex Clustering Redefined: Robust Learning with the Median of Means Estimator".
 
-Instructions: 
+## Instructions: 
 - The folder "real_testing" contains codes for algorithms to be run on real datasets. They include the links to the real datasets. They output a file that contains a sequence of ARI, AMI, and the estimated number of clusters for the dataset. These are useful for various tests and error rates provided in the main paper and the appendix. Below are some code blocks that you need to keep in mind while running the code:
 
 ```python
@@ -50,9 +50,8 @@ k*,ari,nnmi
 5,0.962900257377943,0.8693911188978068
 4,0.9667183481830429,0.8879166706405104
 4,0.9532065217783168,0.8831960884636375
-
 ```
-
+---
 - The folder "synthetic_testing" contains codes for algorithms to be run on real datasets. They include the functions to form the synthetic datasets. 
 Below are some code blocks that you need to keep in mind while running the code:
 ```python
