@@ -2,7 +2,7 @@
 Codes for the paper "Convex Clustering Redefined: Robust Learning with the Median of Means Estimator".
 
 Instructions: 
-#1. The folder "real_testing" contains codes for algorithms to be run on real datasets. They include the links to the real datasets. They output a file that contains a sequence of ARI, AMI, and the estimated number of clusters for the dataset. These are useful for various tests and error rates provided in the main paper and the appendix. Below are some code blocks that you need to keep in mind while running the code:
+- The folder "real_testing" contains codes for algorithms to be run on real datasets. They include the links to the real datasets. They output a file that contains a sequence of ARI, AMI, and the estimated number of clusters for the dataset. These are useful for various tests and error rates provided in the main paper and the appendix. Below are some code blocks that you need to keep in mind while running the code:
 
 ```python
 ## This is an illustration of the comet_testing.ipynb file with additional comments
@@ -53,7 +53,7 @@ k*,ari,nnmi
 
 ```
 
-#2.  The folder "synthetic_testing" contains codes for algorithms to be run on real datasets. They include the functions to form the synthetic datasets. 
+- The folder "synthetic_testing" contains codes for algorithms to be run on real datasets. They include the functions to form the synthetic datasets. 
 Below are some code blocks that you need to keep in mind while running the code:
 ```python
 ## Choose the set of hyperparameters you prefer
@@ -101,7 +101,6 @@ Iterations : 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 Number of clusters : 1.9333333333333333 +/- 0.8537498983243799
 ARI : 0.6192049595333597 +/- 0.44749199523473543
 AMI : 0.6251327343476533 +/- 0.4493159700250917
+```
 ![Image 1](./images/1.png)
 ![Image 2](./images/download.png)
-```
-
